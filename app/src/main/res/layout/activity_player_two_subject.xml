@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_player_two_subject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.hangmangame.PlayerTwoSubject">
+
+    <TextView
+        android:text="@string/enterword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txtEnterWord"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtPlayerWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:hint="@string/your_word"
+        android:layout_below="@+id/txtEnterWord"
+        android:layout_centerHorizontal="true" />
+
+
+    <GridView
+        android:id = "@+id/txtKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="6"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:layout_gravity="center_horizontal"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="270dp"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/submit"
+        android:layout_below="@+id/txtPlayerWord"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guesstheword"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.hangmangame.Guesstheword">
+
+    <ImageView
+        android:id="@+id/imgHangman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="299dp"
+        app:srcCompat="@drawable/hangman" />
+
+    <TextView
+        android:text="User's Word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWordToGuess"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <GridView
+        android:id = "@+id/txtKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="6"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:layout_gravity="center_horizontal"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="290dp"
+        android:textSize="10sp"/>
+
+
+
+</RelativeLayout>

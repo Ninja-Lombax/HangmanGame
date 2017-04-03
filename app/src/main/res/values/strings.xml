@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hangman Game</string>
+    <string name="hangman">Hangman</string>
+    <string name="choose_letter">Please choose a letter</string>
+    <string name="word">Your word is:</string>
+    <string name="won">You won</string>
+    <string name="lost">You lost</string>
+    <string name="submit">Submit</string>
+    <string name="your_word">Your word here.</string>
+    <string name="play_again">Would you like to play again?</string>
+    <string name="game_type">Would you like to play a one player or two player game?</string>
+    <string-array name="number_players">
+        <item>One Player</item>
+        <item>Two Player</item>
+    </string-array>
+    <string-array name="pick_subject">
+        <item>Animals</item>
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Plants</item>
+        <item>Any subject</item>
+    </string-array>
+    <string name="subject">Please pick a subject</string>
+    <string name="enterword">Please enter your word:</string>
+</resources>
